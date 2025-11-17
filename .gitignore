@@ -1,4 +1,4 @@
 /docs
 /vector_db
 .venv
-.env
+/.env
