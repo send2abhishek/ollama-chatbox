@@ -64,6 +64,7 @@ qa_chain = RetrievalQA.from_chain_type(
 
 query="what is vajra akeyless ?"
 response = qa_chain.invoke({"query": query})
+
 print(response["result"])
 
 
